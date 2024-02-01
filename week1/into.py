@@ -71,4 +71,30 @@ print(my_dict.get('last_name', "Sarr"))
 print(my_dict)
 
 ##### set #####
-"""c'est quoi les set ?"""
+"""c'est quoi les tuple  ?"""
+#un tuple est une strucutre de donne qui sert a stocker des donnee
+#les tuples sont ummuable =>cest a dire on ne peus pas modifier une foi declarer
+#un tuple est defini avec des parenthese
+#on peut avoir des tuple comme suit tuple1= (1,5,3,6) ou bien tuple2 =("ken","wass","tima") ou bien mixt tuple3 = (32,"kira""1.43")
+#on peut utiliser indexation en tuple
+##############affichagetuple########
+tuple =(10,65,10,6,5,7)
+
+print(tuple)
+#affichage index
+print(tuple[1:])
+print(tuple[1:4]) #ici on aura index 1 a index 3 qui sauront afficher le tableau prend longueur du tableau (n-1)
+print(tuple[::2]) #il va afficher en sauter une etape(c'est a dire une valeur)
+#trouver le min
+print(min(tuple))
+#trouver le maax
+print(max(tuple))
+#len tuple
+print(len(tuple))
+#le nbre de fois un element est present
+print(tuple.count(10))
+#convertir list a tuple
+#multiplier un tuple
+tuple = ("khalil ")*3
+print(tuple)
+
