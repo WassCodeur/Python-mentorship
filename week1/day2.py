@@ -34,3 +34,4 @@ def greet(name): # fonction avec arguments
 # appel des fonctions
 my_fun()
 greet("Fatima")
+

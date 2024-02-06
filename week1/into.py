@@ -73,10 +73,11 @@ print(my_dict)
 ##### set #####
 """c'est quoi les tuple  ?"""
 #un tuple est une strucutre de donne qui sert a stocker des donnee
-#les tuples sont ummuable =>cest a dire on ne peus pas modifier une foi declarer
+#les tuples sont ummuable =>cest a dire on ne peux pas modifier une foi declarer
 #un tuple est defini avec des parenthese
 #on peut avoir des tuple comme suit tuple1= (1,5,3,6) ou bien tuple2 =("ken","wass","tima") ou bien mixt tuple3 = (32,"kira""1.43")
 #on peut utiliser indexation en tuple
+#dans un tuple on peut aussi reppeter la mm valeur
 ##############affichagetuple########
 tuple =(10,65,10,6,5,7)
 
@@ -97,4 +98,23 @@ print(tuple.count(10))
 #multiplier un tuple
 tuple = ("khalil ")*3
 print(tuple)
+########SET#########
+set = {2,4,5,1,}
+#ajouter un item au set on utilise la fonction add()
+#si on veux print la longueur on utiliser le la fonction len()
+#si on veux remove un item on fait la fonction remove() ou bien discard()
+#effacer le set clear()
+#pop enleve les element de facon aleatoire
+#on peut ajouter aussi un tuple complet dans le set mais pas de list car les liste sont mutable et les tuple ummutable
+set.add(99)
+set.remove(2)
+set.pop()
+print(set)
+print(len(set))
+#les operator en set
+set1 = {'Rama','ken','tom'}
+set2 = {'Rama','aila','mo'}
+set3 = {'henry','ken','pere'}
+print(set1.difference(set2)) #donne les items qui sont dans set1 et ne sont pas dans le set2
+
 
