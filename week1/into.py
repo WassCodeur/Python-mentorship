@@ -116,5 +116,3 @@ set1 = {'Rama','ken','tom'}
 set2 = {'Rama','aila','mo'}
 set3 = {'henry','ken','pere'}
 print(set1.difference(set2)) #donne les items qui sont dans set1 et ne sont pas dans le set2
-
-
