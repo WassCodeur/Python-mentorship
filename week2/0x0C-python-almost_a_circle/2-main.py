@@ -5,19 +5,18 @@ from models.rectangle import Rectangle
 if __name__ == "__main__":
 
     try:
-        r = Rectangle(10, "2")
-        print(r.height)
+        Rectangle(10, "2")
     except Exception as e:
         print("[{}] {}".format(e.__class__.__name__, e))
 
     try:
-        r = Rectangle(-10, 2)
+        r = Rectangle(10, 2)
         r.width = -10
     except Exception as e:
         print("[{}] {}".format(e.__class__.__name__, e))
 
     try:
-        r = Rectangle(10, 2, 1, 1)
+        r = Rectangle(10, 2)
         r.x = {}
     except Exception as e:
         print("[{}] {}".format(e.__class__.__name__, e))
